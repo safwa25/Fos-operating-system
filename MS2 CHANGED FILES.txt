@@ -1,0 +1,34 @@
+MS2 FILES
+=========
+inc:
+	memlayout.h
+	environment_definitions.h
+
+lib:
+	uheap.c
+
+kern:
+	init.c
+	
+kern/mem:
+	kheap.c
+	kheap.h
+	working_set_manager.c
+	chunk_operations.c
+	shared_memory_manager.c
+	shared_memory_manager.h
+
+kern/proc:
+	user_enviornment.c
+
+kern/trap:
+	fault_handler.c
+	
+kern/tests:
+	test_kheap.h
+	test_kheap.c
+	test_handler.c
+	utilities.c
+
+user:
+	set of updated test files
